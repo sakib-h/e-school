@@ -7,8 +7,10 @@
 }
 
 
-.container {
+.container,
+.container-fluid {
   overflow: hidden;
+  margin-bottom: 50px;
 }
 
 header {
@@ -31,7 +33,7 @@ header {
 
 .navbar-light .navbar-nav a.nav-link {
   display: inline-block;
-  padding: 10px 25px;
+  padding: 12px 30px;
   transition: 0.5s;
 }
 
@@ -45,6 +47,7 @@ header {
   font-weight: 400;
   font-size: 16px;
   color: #FD511A;
+  margin-bottom: 20px;
 
 }
 
@@ -52,9 +55,75 @@ header {
   font-weight: 700;
   font-size: 48px;
   color: #000000;
+  margin-bottom: 20px;
 
 }
 
 .featured-area span {
-  color:  #21B573;
+  color: #21B573;
+
+}
+
+.featured-area p {
+  font-weight: 300;
+  font-size: 16px;
+  color: #6C6B6B;
+  margin-bottom: 20px;
+}
+
+.featured-area a {
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 12px 36px;
+  background-color: #21B573;
+  border-radius: 33px;
+  margin-bottom: 20px;
+}
+
+.featured-area img {
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.data-structer .col-md-3 {
+  text-align: center;
+  overflow: hidden;
+
+
+}
+
+.data-structer .col-md-3 .content {
+  background-color: #F8FFFB;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+
+.data-structer .col-md-3 img {
+  display: inline-block;
+  margin: 30px 0;
+
+}
+
+.data-structer .col-md-3 h3 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #413960;
+  margin-bottom: 5px;
+}
+
+.data-structer .col-md-3 p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #585859;
+  padding-bottom: 20px;
+
+}
+
+.data-structer .col-md-3 .content:hover {
+  background: #FFFFFF;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+  transform: scale(105%);
 }
