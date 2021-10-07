@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins',
+    sans-serif;
+  box-sizing: border-box;
+}
+
+
+.container {
+  overflow: hidden;
+}
+
+header {
+  overflow: hidden;
+  margin-bottom: 50px;
+}
+
+.header-bg {
+  background-color: #F0FFF0;
+  overflow: hidden;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-weight: 400;
+  font-size: 16px;
+  padding: 5px;
+  color: #000000;
+
+}
+
+.navbar-light .navbar-nav a.nav-link {
+  display: inline-block;
+  padding: 10px 25px;
+  transition: 0.5s;
+}
+
+.navbar-light .navbar-nav a.nav-link.button {
+  background-color: #21B573;
+  border-radius: 30px;
+  color: #ffffff;
+}
+
+.featured-area h3 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #FD511A;
+
+}
+
+.featured-area h1 {
+  font-weight: 700;
+  font-size: 48px;
+  color: #000000;
+
+}
+
+.featured-area span {
+  color:  #21B573;
+}
