@@ -149,7 +149,6 @@ header {
 
 .card:hover {
   background: #FFFFFF;
-  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
   transform: scale(105%);
 }
 
@@ -179,10 +178,9 @@ header {
 }
 
 
-.card-footer {
+.card-bottom {
   display: flex;
   justify-content: space-between;
-  background-color: #ffffff;
   border: none;
   padding-top: 10px;
   margin-bottom: 10px;
