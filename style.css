@@ -43,6 +43,10 @@ header {
   color: #ffffff;
 }
 
+.featured-area .row {
+  overflow: hidden;
+}
+
 .featured-area h3 {
   font-weight: 400;
   font-size: 16px;
@@ -126,4 +130,136 @@ header {
   background: #FFFFFF;
   box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
   transform: scale(105%);
+}
+
+
+.online-courses {
+  overflow: hidden;
+}
+
+
+.card {
+  padding: 15px;
+  border-radius: 18px;
+  background: #F0FFF0;
+  border: none;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.card:hover {
+  background: #FFFFFF;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+  transform: scale(105%);
+}
+
+.card h5 {
+  font-weight: 500;
+  font-size: 24px;
+  color: #413960;
+  padding-bottom: 10px;
+}
+
+.card p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #585859;
+  padding-bottom: 10px;
+}
+
+.card a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ffffff;
+  background: #21B573;
+  border-radius: 33px;
+  padding: 8px 28px;
+
+}
+
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border: none;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.testimonial {
+  margin: 100px 0;
+}
+
+.testimonial h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 36px;
+  color: #000000;
+
+}
+
+.testimonial .profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial .profile p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+  padding: 0 40px;
+}
+
+
+footer {
+  background: #282531;
+  overflow: hidden;
+}
+
+footer .container {
+  margin-bottom: 0;
+}
+
+footer .row {
+  padding: 50px 0;
+}
+
+footer .col-md-6 {
+  color: #ffffff;
+}
+
+footer .col-md-6 p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+footer .col-md-6 ul {
+  list-style-type: none;
+}
+
+footer .col-md-6 ul h2 {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+
+footer .col-md-6 ul a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 10px 0;
+}
+
+footer .copyright {
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  color: #CDCDCD;
+
 }
